@@ -1,0 +1,24 @@
+Initial Steps 
+ Create New Maven Project.
+ Enter GroupId(com.companyname.projectname.qualityAssurance) and ArtifactId(qualityAssurance)
+ 
+ Go to New Project Location.
+ In Command Propmt>>git init
+          git config user.email youremail@gmail.com
+          git config user.name 'yourname'
+          git config user.email
+          git remote -v(if noremote add)
+          git remote add origin 'URL'
+          (Note: either URL can be with https or ssh)
+          git remote -v
+          git status
+          
+          To create git Ignore file
+          touch .gitignore
+          gedit .gitignore(add file to be ignored)
+          git status
+          git add .
+          git commit -m"Message"
+          git pull orign master
+          git push origin master
+          
